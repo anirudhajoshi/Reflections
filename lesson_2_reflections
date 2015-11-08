@@ -5,3 +5,12 @@ A hidden folder named .git is created. To make sure git undersatands that everyt
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area is where files get put before commmitting them. It is a place to loically seperate files before each commit
 
+How can you use the staging area to make sure you have one commit per logical change?
+You can use git add to add the files affected to the staging area. git commit commits the files to the repository
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When you want to keep the current code base untouched and add more features. The original branch (i.e. master) will contain the original code while the branch will have the new features. This way we always have a working copy of the code in case we need to revert back to it
+
+How do the diagrams help you visualize the branch structure?
+They give a graphical representation of how the code is organized over time
+
