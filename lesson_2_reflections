@@ -14,3 +14,7 @@ When you want to keep the current code base untouched and add more features. The
 How do the diagrams help you visualize the branch structure?
 They give a graphical representation of how the code is organized over time
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: Will merge entire branch history of branch that is being merged from
+Cons: Will not merge files that have conflicts in the general area and will have to be manually examined and merged
+
